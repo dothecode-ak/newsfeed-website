@@ -1,0 +1,298 @@
+.filter-option {
+  text-align: center !important;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: usecasesFont;
+  src: url("https://www.newsfeedsmartapps.com/all_js_uses_cases/font/Gotham-Medium.otf");
+}
+
+.usesListHead {
+  margin-top: 4% !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.casesOptions {
+  text-align: center;
+}
+.col-md-2 {
+  padding: 15px;
+}
+select {
+  border-style: none none solid none !important;
+}
+
+select,
+div,
+p {
+  font-family: "Gothom-Light";
+}
+
+#serachApp {
+  border-style: none none solid;
+}
+
+.tryTheApp {
+  width: 100%;
+  font-family: "Gotham-Bold";
+  font-size: 18px;
+}
+
+.tryTheApp a {
+  text-align: center;
+  color: #000000;
+  padding: 11px;
+  cursor: pointer;
+  margin: 0 auto;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  border: 1px solid;
+  font-family: usecasesFont;
+}
+
+.tryTheApp a:hover {
+  text-align: center;
+  color: #fff;
+  padding: 11px;
+  font-family: usecasesFont;
+  background-color: #000000;
+  cursor: pointer;
+  margin: 0 auto;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+
+.examples .usecase-list ul li {
+  display: none;
+}
+
+#loadMore {
+  border: 1px solid;
+  text-align: center;
+  width: 15%;
+  color: #000000;
+  padding: 12px;
+  display: table;
+  margin: 0px auto;
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-family: usecasesFont;
+  font-size: 18px;
+}
+
+#loadMore:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+#scroll {
+  background-image: url(assets/images/scroll_use_casess.png);
+  position: absolute;
+  width: 6%;
+  height: 5%;
+  bottom: 0;
+  cursor: pointer;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  right: 10%;
+}
+
+#notavailable {
+  text-align: center;
+  width: 95%;
+  padding: 12px;
+  display: table;
+  margin: 0px auto;
+  position: absolute;
+  left: 0;
+  display: none;
+  right: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #f52626;
+}
+
+.app:hover .overDiv {
+  opacity: 1;
+}
+
+.searchButton {
+  cursor: pointer;
+  width: 15%;
+}
+
+.searchBox {
+  display: inline-block;
+  width: 20%;
+  background-size: 14%;
+  position: absolute;
+  z-index: 1000;
+}
+
+.serachText {
+  width: 0%;
+  padding: 0;
+  outline: none;
+  border: none;
+  position: absolute;
+  z-index: 10000;
+  height: 38px;
+}
+
+#applist {
+  position: absolute;
+  z-index: 100000;
+  background: white;
+  width: 50%;
+  border: 1px solid;
+  list-style: none;
+}
+
+.filterTheApp {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  width: 100%;
+}
+
+/* webkit solution */
+::-webkit-input-placeholder {
+  text-align: left;
+}
+
+/* mozilla solution */
+input:-moz-placeholder {
+  text-align: left;
+}
+
+.inputDataSearch {
+  outline: none;
+  height: 38px;
+  border: none;
+  background-image: url(https://www.newsfeedsmartapps.com/assets/images/searchicon.png);
+  background-size: 30px;
+  background-position: right;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  font-family: "Gothom-Light";
+}
+
+.threePatternData {
+  padding: 10px;
+}
+select,
+input {
+  font-family: "Gothom-Light" !important;
+}
+.titleHead {
+  font-family: usecasesFont;
+  font-size: 15px;
+  margin: 1px;
+}
+select {
+  background: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  #loadMore {
+    width: 44%;
+    position: unset;
+    margin-bottom: 16%;
+  }
+
+  .filterTheApp {
+    display: contents;
+  }
+
+  .inputDataSearch,
+  .selectOptions {
+    width: 200px;
+    font-family: "Gothom-Light";
+  }
+
+  select,
+  input {
+    width: 200px;
+    font-family: "Gothom-Light";
+  }
+
+  .overDiv {
+    width: 100%;
+    height: 165px;
+    line-height: 1 !important;
+    text-align: center;
+    font-family: "Gothom-Light" !important;
+    margin-bottom: 10px;
+  }
+  #app43 .overDiv,
+  #app44 .overDiv {
+    height: 159px !important;
+  }
+  .overtext {
+    font-size: 17px;
+    text-align: center;
+    font-family: "Gothom-Light" !important;
+  }
+  .titleHead {
+    font-family: usecasesFont;
+    font-size: 19px;
+    margin: 5px;
+    line-height: 0.92;
+  }
+  .col-md-2 {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .examples .usecase-list ul li {
+    flex-direction: column;
+    float: left;
+    width: 25%;
+    padding: 0 1%;
+    max-width: 100%;
+  }
+  .col-md-2 {
+    margin-top: 33px;
+  }
+  .overDiv {
+    text-align: center;
+    height: 164px;
+    margin-bottom: 37px;
+  }
+  #align_app {
+    margin: unset;
+  }
+  #loadMore {
+    width: 23%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .overDiv {
+    text-align: center;
+    height: 135px;
+    margin-bottom: 25px;
+  }
+
+  .overtext {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+}
